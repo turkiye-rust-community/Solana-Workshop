@@ -30,3 +30,6 @@ dist/
 # Test artifacts
 **/.mocharc*
 **/test-ledger/
+
+
+*.pdf
