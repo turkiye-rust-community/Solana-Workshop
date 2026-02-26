@@ -37,7 +37,7 @@ cargo run --bin 01_variables
 ### 02 — Veri Tipleri (`02_data_types.rs`)
 `u8`, `u64`, `i64`, `bool`, tuple, array, `String`, `Vec<T>`, tip dönüşümü.
 Anchor bağlantısı: `[u8; 32]` = Pubkey, `i64` = Unix timestamp, `u64` = lamport.
-**Önemli:** Solana on-chain kodda float (`f32`/`f64`) kullanmaktan kaçının.
+**Önemli:** Solana onchain kodda float (`f32`/`f64`) kullanmaktan kaçının.
 
 ```bash
 cargo run --bin 02_data_types
@@ -163,7 +163,7 @@ cargo run --bin 13_anchor_patterns
 
 | Rust Kavramı | Anchor Karşılığı |
 |---|---|
-| `struct` | `#[account]` — on-chain veri yapısı |
+| `struct` | `#[account]` — onchain veri yapısı |
 | `enum` | `#[error_code]` — özel hata kodları |
 | `impl` metot | `#[program]` instruction handler |
 | `Result<T,E>` | `Result<()>` — tüm handler'ların dönüş tipi |
